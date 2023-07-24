@@ -1,0 +1,29 @@
+.navbarContainer {
+    background-color: black;
+    display: grid;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-right: 70px;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.category{
+    font-size: large;
+}
+.category:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 1px;
+}
