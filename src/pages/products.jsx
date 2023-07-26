@@ -27,3 +27,11 @@ export const products = [
         description: "Top semiformal"
     }
 ]
+
+export const getProducts = () => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products)
+        }, 500)
+    })
+}

@@ -1,12 +1,11 @@
-import './App.css';
-import MediaCard from './components/item';
+import { ItemListContainer } from './components/item-list-container';
 import { Navbar } from './components/navbar';
 
 function App() {
   return (
     <div className="App">
-    <Navbar/>
-    <MediaCard/>
+      <Navbar />
+      <ItemListContainer />
     </div>
   );
 }
